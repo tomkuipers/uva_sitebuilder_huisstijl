@@ -1,0 +1,120 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* perhaps increase the body font size on small devices (font-size: 112.5%;)*/
+html {
+}
+
+/* Main navigation */
+#menu-bar {
+  height: 40px;
+  /* background-color: yellow; */
+}
+#block-system-main-menu a {
+  text-decoration: none;
+  line-height: 40px;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#block-system-main-menu li {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  float: left;
+}
+
+/* small logo instead of the large one. */
+#header .logo-mobile {
+  display: block;
+  float: left;
+}
+#header .site_logo .site_title {
+  display: block;
+  font-size: 15px;
+  float: left;
+  line-height: 31px;
+  padding-left: 3px;
+}
+#header .logo {
+  display: none;
+}
+#header .site_logo {
+  margin-left: 5px;
+  margin-top: 15px;
+  width: 60px;
+}
+
+/* search form */
+#header .header-right {
+  margin-right: 5px;
+}
+#header #block-search-form .form-text {
+  width: 135px;
+}
+
+/* Player object */
+.page-asset .view .asset-video-player,
+.page-collection .view .collection-videos {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* Adjust homepage */
+.view .asset-information {
+  float: none;
+  margin-left: 0;
+  overflow: visible;
+}
+.view .asset-information .views-field-title {
+  overflow: visible;
+}
+
+#page_content .view .asset-information .views-field-owner-id {
+  position: relative;
+  bottom: 0;
+}
+
+.view .views-field-owner-id {
+  background: url('../images/sprite.png') no-repeat -464px -597px;
+  width: 10px;
+}
+
+.view .asset-information .views-field-played {
+  position: relative;
+  bottom: 0;
+}
+
+#spotlight .view .asset-information .views-field-played {
+  position: absolute;
+}
+
+
+#content #page_content #block-views-mediamosa-asset-popular-block {
+  width: 242px;
+}
+#content #page_content #block-views-mediamosa-asset-new-block {
+  width: 242px;
+}
+
+.page-asset .asset-detail-information,
+.page-collection .collection-detail-information {
+  width: 91%;
+  float: left;
+  margin: auto;
+  margin: 0px 15px 15px 15px;
+  clear: left;
+}
+
+.page-collection-detail .view .collection-videos {
+  width: auto;
+}

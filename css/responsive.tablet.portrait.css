@@ -1,0 +1,62 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* Increase the body font size on small devices? (font-size: 81.3%;)  */
+html {
+}
+/* Main navigation */
+#menu-bar {
+  height: 40px;
+  /* background-color: lime; */
+}
+#block-system-main-menu a {
+  text-decoration: none;
+  line-height: 40px;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#block-system-main-menu li {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  float: left;
+}
+
+/* search form */
+#header .header-right {
+  margin-right: 5px;
+}
+#header #block-search-form .form-text {
+  width: 135px;
+}
+
+/* Player object */
+.page-asset .view .asset-video-player,
+.page-collection .view .collection-videos {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.page-asset .asset-detail-information,
+.page-collection .collection-detail-information {
+  width: 91%;
+  float: left;
+  max-width: 640px;
+  margin: auto;
+  margin: 0px 15px 15px 15px;
+  clear: both;
+}
+
+.page-collection-detail .view .collection-videos {
+  width: auto;
+}

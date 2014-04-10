@@ -1,0 +1,3 @@
+7.x-3.5
+-------
+- Corrected displayName in case of surfconext enabled.

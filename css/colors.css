@@ -1,0 +1,61 @@
+/* ---------- Color Module Styles ----------- */
+
+/* Header background color */
+#header {
+  background-color: #ededed;
+}
+
+/* Text color */
+body, span {
+  color: #1f1d21;
+}
+
+/* Links */
+a {
+  color: #bc0031;
+}
+
+/* Heading */
+h1 {
+  color: #1f1d21;
+}
+
+.block h2 {
+  color: #1f1d21;
+}
+
+/* Slogan background */
+.slogan {
+  background-color: #dbdbdb;
+}
+
+/* Slogan text */
+.slogan h1 {
+  color: #1f1d21;
+}
+
+/*Featured background */
+#spotlight,
+#breadcrumbs,
+.asset-technical-information #asset-tabs li {
+
+}
+
+.views-exposed-form,
+.page-asset #content form,
+.page-collection #content form,
+.asset-technical-information .tab,
+.asset-technical-information .tab h2,
+.asset-technical-information .tab table tr td {
+  border-color: #eaeaf3;
+}
+
+.page-asset .asset-detail-information,
+.asset-detail-information .information-row {
+  border-color: #eaeaf3;
+}
+
+/* Video Hover Color */
+.videohover {
+  background-color: #bc0031;
+}
