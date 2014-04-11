@@ -60,21 +60,20 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
-/* Increase the default font size on small devices */
+/* Increase the default font size on small devices? (font-size: 112.5%;) */
 html {
-  font-size: 112.5%;
 }
 /* Main navigation */
 #menu-bar {
   height: 40px;
+  /* background-color: blue; */
 }
 #block-system-main-menu a {
   text-decoration: none;
   line-height: 40px;
-  padding: 0 15px;
-  color: #fff;
+  padding: 0 10px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 #block-system-main-menu li {
@@ -84,9 +83,17 @@ html {
   float: left;
 }
 
-/* small logo */
+/* small logo instead of the large one. */
 #header .logo-mobile {
   display: block;
+  float: left;
+}
+#header .site_logo .site_title {
+  display: block;
+  font-size: 15px;
+  float: left;
+  line-height: 31px;
+  padding-left: 3px;
 }
 #header .logo {
   display: none;
@@ -94,6 +101,7 @@ html {
 #header .site_logo {
   margin-left: 5px;
   margin-top: 15px;
+  width: 60px;
 }
 
 /* search form */
@@ -110,6 +118,78 @@ html {
   margin-right: 0px;
   margin-left: 0px;
 }
+/* footer */
+#footer .menu li {
+padding: 0 3px 0 3px;
+}
+
+/* Adjust homepage */
+.view .asset-information {
+  float: none;
+  margin-left: 0;
+  overflow: visible;
+}
+.view .asset-information .views-field-title {
+  overflow: visible;
+}
+
+#page_content .view .asset-information .views-field-owner-id {
+  position: relative;
+  bottom: 0;
+}
+
+.view .views-field-owner-id {
+  background: url(/uva-sitebuilder-huisstijl/sites/all/themes/sitebuilder-uva/images/sprite.png) no-repeat -464px -597px;
+  width: 10px;
+}
+
+.view .asset-information .views-field-played {
+  position: relative;
+  bottom: 0;
+}
+
+#spotlight .view .asset-information .views-field-played {
+  position: absolute;
+}
+
+
+#content #page_content #block-views-mediamosa-asset-popular-block,
+#content #page_content #block-views-mediamosa-asset-new-block {
+  width: 242px;
+}
+
+#block-views-mediamosa-asset-new-block .view .asset-information,
+#block-views-mediamosa-asset-popular-block .view .asset-information {
+  max-width: 210px;
+  clear: both;
+  min-height: 60px;
+}
+
+#block-views-mediamosa-asset-new-block .view .asset-information .views-field-description,
+#block-views-mediamosa-asset-popular-block .view .asset-information .views-field-description {
+  padding-bottom: 35px;
+}
+
+#block-views-mediamosa-asset-new-block .view .asset-information .views-field-owner-id,
+#block-views-mediamosa-asset-popular-block .view .asset-information .views-field-owner-id {
+  position: absolute;
+  bottom: 28px;
+}
+
+.page-asset .asset-detail-information,
+.page-collection .collection-detail-information {
+  width: 91%;
+  float: left;
+  max-width: 640px;
+  margin: auto;
+  margin: 0px 15px 15px 15px;
+  clear: left;
+}
+
+.page-collection-detail .view .collection-videos {
+  width: auto;
+}
+
 }
 @media only screen and (min-width:321px) and (max-width:480px) {
 /*
@@ -121,14 +201,15 @@ html {
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
-/* Increase the body font size on small devices */
+
+/* perhaps increase the body font size on small devices (font-size: 112.5%;)*/
 html {
-  font-size: 112.5%;
 }
 
 /* Main navigation */
 #menu-bar {
   height: 40px;
+  /* background-color: yellow; */
 }
 #block-system-main-menu a {
   text-decoration: none;
@@ -146,9 +227,17 @@ html {
   float: left;
 }
 
-/* small logo */
+/* small logo instead of the large one. */
 #header .logo-mobile {
   display: block;
+  float: left;
+}
+#header .site_logo .site_title {
+  display: block;
+  font-size: 15px;
+  float: left;
+  line-height: 31px;
+  padding-left: 3px;
 }
 #header .logo {
   display: none;
@@ -156,6 +245,7 @@ html {
 #header .site_logo {
   margin-left: 5px;
   margin-top: 15px;
+  width: 60px;
 }
 
 /* search form */
@@ -172,6 +262,72 @@ html {
   margin-right: 0px;
   margin-left: 0px;
 }
+
+/* Adjust homepage */
+.view .asset-information {
+  float: none;
+  margin-left: 0;
+  overflow: visible;
+}
+.view .asset-information .views-field-title {
+  overflow: visible;
+}
+
+#page_content .view .asset-information .views-field-owner-id {
+  position: relative;
+  bottom: 0;
+}
+
+.view .views-field-owner-id {
+  background: url(/uva-sitebuilder-huisstijl/sites/all/themes/sitebuilder-uva/images/sprite.png) no-repeat -464px -597px;
+  width: 10px;
+}
+
+.view .asset-information .views-field-played {
+  position: relative;
+  bottom: 0;
+}
+
+#spotlight .view .asset-information .views-field-played {
+  position: absolute;
+}
+
+#content #page_content #block-views-mediamosa-asset-popular-block,
+#content #page_content #block-views-mediamosa-asset-new-block {
+  width: 242px;
+}
+
+#block-views-mediamosa-asset-new-block .view .asset-information,
+#block-views-mediamosa-asset-popular-block .view .asset-information {
+  max-width: 210px;
+  clear: both;
+  min-height: 60px;
+}
+
+#block-views-mediamosa-asset-new-block .view .asset-information .views-field-description,
+#block-views-mediamosa-asset-popular-block .view .asset-information .views-field-description {
+  padding-bottom: 35px;
+}
+
+#block-views-mediamosa-asset-new-block .view .asset-information .views-field-owner-id,
+#block-views-mediamosa-asset-popular-block .view .asset-information .views-field-owner-id {
+  position: absolute;
+  bottom: 28px;
+}
+
+.page-asset .asset-detail-information,
+.page-collection .collection-detail-information {
+  width: 91%;
+  float: left;
+  margin: auto;
+  margin: 0px 15px 15px 15px;
+  clear: left;
+}
+
+.page-collection-detail .view .collection-videos {
+  width: auto;
+}
+
 }
 @media only screen and (min-width:481px) and (max-width:768px) {
 /*
@@ -183,13 +339,14 @@ html {
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
-/* Increase the body font size on small devices */
+
+/* Increase the body font size on small devices? (font-size: 81.3%;)  */
 html {
-  font-size: 81.3%;
 }
 /* Main navigation */
 #menu-bar {
   height: 40px;
+  /* background-color: lime; */
 }
 #block-system-main-menu a {
   text-decoration: none;
@@ -207,19 +364,6 @@ html {
   float: left;
 }
 
-/* small logo */
-/*
-#header .logo-mobile {
-  display: block;
-}
-#header .site_logo {
-  margin-left: 5px;
-  margin-top: 15px;
-}
-#header .logo {
-  display: none;
-}
-*/
 /* search form */
 #header .header-right {
   margin-right: 5px;
@@ -234,19 +378,42 @@ html {
   margin-right: 0px;
   margin-left: 0px;
 }
+
+.page-asset .asset-detail-information,
+.page-collection .collection-detail-information {
+  width: 91%;
+  float: left;
+  max-width: 640px;
+  margin: auto;
+  margin: 0px 15px 15px 15px;
+  clear: both;
+}
+
+.page-collection-detail .view .collection-videos {
+  width: auto;
+}
+
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
 /*
  *   Important Information about this CSS File
  *
- * - Do not delete or rename this file, if you do not use it leave it blank (delete 
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
  *   everything) and the file will be skipped when you enable Production Mode in
  *   the Global theme settings.
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 #menu-bar {
-/*  background-color: lime; */
+  /* background-color: red; */
+}
+
+.page-asset .asset-detail-information,
+.page-collection .collection-detail-information {
+  width: 640px;
+  float: left;
+  margin: 0px 15px 15px 15px;
+  clear: both;
 }
 
 }
@@ -261,6 +428,7 @@ html {
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 #menu-bar {
+  /* background-color: purple; */
 }
 
 }
