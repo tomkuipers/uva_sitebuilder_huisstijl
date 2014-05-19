@@ -1177,7 +1177,6 @@ html.js .views-exposed-form .views-exposed-widget .form-autocomplete.throbbing {
 .page-myassets .view .item-list {
   overflow: hidden;
   clear: both;
-  position: relative;
   margin-top: 34px;
   padding-top: 14px;
   border-top: 2px solid #eaeaf3;
@@ -1963,6 +1962,9 @@ html.js .page-collection #content form .form-wrapper fieldset.collapsible .field
 /**********************************************************
  * Pager
  *********************************************************/
+.item-list {
+  position: relative;
+}
 
 .item-list .pager li {
   margin: 0;
@@ -2130,5 +2132,3 @@ img.image-style-mediamosa-sb-normal {
   height: 127px;
   max-width: 220px;
 }
-
-
