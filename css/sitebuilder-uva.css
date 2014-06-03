@@ -1590,8 +1590,6 @@ html.js .views-exposed-form .views-exposed-widget .form-autocomplete.throbbing {
 
 .asset-detail-information .asset-formats ul li a,
 .asset-detail-information .asset-download ul li a {
-  background-position: 100% -1400px;
-  display: inline-block;
 }
 
 .item-navigation li {
