@@ -57,7 +57,7 @@
   <?php if (!empty($fields['mediafiles']) && !empty($fields['mediafiles']->content)): ?>
     <?php if (variable_get('mediamosa_sb_view_asset_formats', TRUE)): ?>
       <div class="information-row asset-formats">
-      <h3><?php print t('Additional format(s)'); ?></h3>
+      <h3><?php print t('Format(s)'); ?></h3>
       <p><?php print t('This video is available in the following additional format(s)'); ?>:</p>
       <?php print $fields['mediafiles']->content; ?>
     </div>
