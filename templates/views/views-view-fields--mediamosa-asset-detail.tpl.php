@@ -55,11 +55,13 @@
   </div>
 
   <?php if (!empty($fields['mediafiles']) && !empty($fields['mediafiles']->content)): ?>
-  <div class="information-row asset-formats">
-    <h3><?php print t('Additional format(s)'); ?></h3>
-    <p><?php print t('This video is available in the following additional format(s)'); ?>:</p>
-    <?php print $fields['mediafiles']->content; ?>
-  </div>
+    <?php if (variable_get('mediamosa_sb_view_asset_formats', TRUE)): ?>
+      <div class="information-row asset-formats">
+      <h3><?php print t('Additional format(s)'); ?></h3>
+      <p><?php print t('This video is available in the following additional format(s)'); ?>:</p>
+      <?php print $fields['mediafiles']->content; ?>
+    </div>
+    <?php endif; ?>
   <?php endif; ?>
 
   <?php if (function_exists('virtualcutter_presentation_load')) : ?>
