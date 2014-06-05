@@ -22,5 +22,6 @@ body {
 </head>
 <body>
   <?php print $page; ?>
+<?php print drupal_get_js('footer'); ?>
 </body>
 </html>
