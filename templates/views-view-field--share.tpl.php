@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * This template is used to print a single field in a view.
@@ -21,7 +20,6 @@
  * regardless of any changes in the aliasing that might happen if
  * the view is modified.
  */
-
 ?>
 <div><p style="margin-bottom:3px;">
 <input type=text
@@ -35,7 +33,7 @@ Object code:
   onclick="this.style.borderColor = 'lightred'; this.select();"
   style="font-family:inherit;width: 100%; border: 1px solid #eaeaf3; min-width:50%; height:4.9em; cursor:pointer; font-size: 0.9em;"
   height="1">
-&lt;iframe width="640" height="360" src="[site:url]asset/player/<?php print $row->asset_id; ?>" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="640" height="360" src="//[site:url-brief]/asset/player/<?php print $row->asset_id; ?>" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 </textarea>
 </p>
 </div>
