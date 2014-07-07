@@ -62,10 +62,10 @@
 ;----------// Scripts
 
   ; script for hide/show dc/qdc information.
-  scripts[] = js/asset_detail.js
+  scripts[] = js/asset_detail.min.js
 
   ; ipad rotation fix.
-  scripts[] = js/ipad_rotating.js
+  scripts[] = js/ipad_rotating.min.js
 
   ; Internet Explorer Scripts
   ;
