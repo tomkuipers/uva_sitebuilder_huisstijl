@@ -1174,7 +1174,8 @@ html.js .views-exposed-form .views-exposed-widget .form-autocomplete.throbbing {
 }
 
 .page-assets .view .item-list,
-.page-myassets .view .item-list {
+.page-myassets .view .item-list,
+.page-collection .view .item-list {
   overflow: hidden;
   clear: both;
   margin-top: 34px;
