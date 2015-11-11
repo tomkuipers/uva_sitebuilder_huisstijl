@@ -1960,10 +1960,6 @@ html.js .page-collection #content form .form-wrapper fieldset.collapsible .field
 /**********************************************************
  * Pager
  *********************************************************/
-.item-list {
-  position: relative;
-}
-
 .item-list .pager li {
   margin: 0;
   padding: 0;
