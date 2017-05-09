@@ -179,39 +179,39 @@ textarea {
 @font-face {
   font-family: 'Meta';
   src:
-    url(//static.uva.nl/css/fontface/meta-book/MetaWeb-Book.eot?#iefix) format('embedded-opentype'),
-    url(//static.uva.nl/css/fontface/meta-book/MetaWeb-Book.woff) format('woff');
+    url(//static.uva.nl/webfiles/latest/css/fontface/meta-book/MetaWeb-Book.eot?#iefix) format('embedded-opentype'),
+    url(//static.uva.nl/webfiles/latest/css/fontface/meta-book/MetaWeb-Book.woff) format('woff');
 }
 @font-face {
   font-family: 'Meta';
   src:
     url('http://:/') format('IE-No-404'),
-    url(//static.uva.nl/css/fontface/meta-book-ita/MetaWeb-BookIta.eot?#iefix) format('embedded-opentype'),
-    url(//static.uva.nl/css/fontface/meta-book-ita/MetaWeb-BookIta.woff) format('woff');
+    url(//static.uva.nl/webfiles/latest/css/fontface/meta-book-ita/MetaWeb-BookIta.eot?#iefix) format('embedded-opentype'),
+    url(//static.uva.nl/webfiles/latest/css/fontface/meta-book-ita/MetaWeb-BookIta.woff) format('woff');
   font-weight:normal;
   font-style: italic;}
 
 @font-face {
   font-family: 'Meta';
   src:
-    url(//static.uva.nl/css/fontface/meta-bold/MetaWeb-Bold.eot?#iefix) format('embedded-opentype'),
-    url(//static.uva.nl/css/fontface/meta-bold/MetaWeb-Bold.woff) format('woff');
+    url(//static.uva.nl/webfiles/latest/css/fontface/meta-bold/MetaWeb-Bold.eot?#iefix) format('embedded-opentype'),
+    url(//static.uva.nl/webfiles/latest/css/fontface/meta-bold/MetaWeb-Bold.woff) format('woff');
   font-weight: bold;
   font-style:normal;
 }
 @font-face {
   font-family: 'Meta Serif';
   src:
-    url(//static.uva.nl/css/fontface/meta-serif-bold/MetaSerifWeb-Bold.eot?#iefix) format('embedded-opentype'),
-    url(//static.uva.nl/css/fontface/meta-serif-bold/MetaSerifWeb-Bold.woff) format('woff');
+    url(//static.uva.nl/webfiles/latest/css/fontface/meta-serif-bold/MetaSerifWeb-Bold.eot?#iefix) format('embedded-opentype'),
+    url(//static.uva.nl/webfiles/latest/css/fontface/meta-serif-bold/MetaSerifWeb-Bold.woff) format('woff');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'MyriadWebProRegular';
   src:
-    url(//static.uva.nl/css/fontface/myriad-web-pro/myriad-web-pro-webfont.eot?#iefix) format('embedded-opentype'),
-    url(//static.uva.nl/css/fontface/myriad-web-pro/myriad-web-pro-webfont.woff) format('woff');
+    url(//static.uva.nl/webfiles/latest/css/fontface/myriad-web-pro/myriad-web-pro-webfont.eot?#iefix) format('embedded-opentype'),
+    url(//static.uva.nl/webfiles/latest/css/fontface/myriad-web-pro/myriad-web-pro-webfont.woff) format('woff');
 }
 
 /* Global UvA style sheet */
