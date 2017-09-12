@@ -47,8 +47,10 @@ function sitebuilder_uva_mediamosa_ck_views_theme_asset_metadata($variables) {
   $rows = array();
 
   ksort($variables['metadata']);
-
   foreach ($variables['metadata'] as $name => $value) {
+    if (is_array($value)) {
+      $value = implode("\n", $value);
+    }
     $name = drupal_ucfirst(str_replace('_', ' ', $name));
     if (empty($value)) {
       $rows[] = array('class' => array('empty'), 'data' => array('name' => $name, 'value' => ''));
