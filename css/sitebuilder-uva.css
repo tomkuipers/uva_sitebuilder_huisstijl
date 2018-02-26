@@ -643,7 +643,7 @@ background: transparent url(../gfx/call_to_action_white.png) right bottom no-rep
 .views-field-mediafile-duration {
   padding: 4px;
   position: absolute;
-  top: 111px;
+  top: 108px;
   left: 190px;
   font-size: 12px;
   font-weight: bold;
@@ -651,12 +651,12 @@ background: transparent url(../gfx/call_to_action_white.png) right bottom no-rep
 }
 
 .not-front .view .views-field-mediafile-duration {
-  top: 101px;
+  top: 98px;
   left: 180px;
 }
 
 .page-search .view .views-field-mediafile-duration {
-  top: 111px;
+  top: 108px;
   left: 190px;
 }
 
